@@ -43,7 +43,7 @@ The images used in our paper for each figure are provided in the file data/[Coor
  
 ![image](https://user-images.githubusercontent.com/35360830/170359342-66906468-82fe-4684-9729-1767e1b7876c.png)
  
-1. Import spreadsheet into [Google Earth](https://earth.google.com/web/) using **Data Import Wizard** by clicking **Import** under **File**. Click *Next* and click Next.
+1. Import spreadsheet into [Google Earth Pro](https://earth.google.com/web/) using **Data Import Wizard** by clicking **Import** under **File**. Click *Next* and click Next.
  ![image](https://user-images.githubusercontent.com/35360830/170358190-0ae0b4c3-bd32-4a54-a59d-9d564c98bc66.png)
 
 2. Select **Latitude** for latitude field and **Longitude** for longitude field and click Next.
@@ -57,9 +57,31 @@ The images used in our paper for each figure are provided in the file data/[Coor
  ![image](https://user-images.githubusercontent.com/35360830/170359062-75844e98-5954-47d9-827c-05f36c9f3965.png)
  ![image](https://user-images.githubusercontent.com/35360830/170359078-64257063-76e9-4f4b-8bf0-4211f3a6d3b9.png)
  
-5. 
+5. To collect Pre-Event Images and the corresponding Post-Event images, use the time-lapse function in Google Earth Pro to check if there are images that spot the events around the date, without any cloud-cover. You can zoom in or out using the scroll wheel. Click **R** on the keyboard to reset view angle after each zoom time.
+ ![image](https://user-images.githubusercontent.com/35360830/170382336-f0cc26f1-cb4b-4f93-98f3-a71158bf0871.png)
 
+6. Before saving the image, be sure to unselect the location points on the map and unselect all the layers. Also, remove map elements and set scaling to 1% in map options to remove any watermarks and labels from the image. Select the current resolution to avoid Google Earth cropping the current view when saving the image.
+![image](https://user-images.githubusercontent.com/35360830/170382422-68d6c15e-6d33-4fb2-a0a0-9c97b28eae78.png)
 
+7. The naming format for images is as follows:
+GE_LAT(LL)_LONG(LL)_LAT(UR)_LONG(UR)_LS_ID_imageDate_PREorPOST
+The meaning of each entry is as follows:
+GE: Google Earth.
+LAT(LL): latitude for the lower left corner
+LONG(LL): longitude for the lower left corner
+LAT(UR): latitude for the upper right corner
+LONG(UR): longitude for the upper right corner
+LS_ID: landslide id for the landslide event from the spreadsheet
+imageDate: data of the image from Google Earth
+PRE: pre-event image
+POST: post-event image
+For example, the two image names below correspond to one landslide image pair
+GE_43.309023_-122.966736_43.310900_122.963295_LS_354_US_20110729_POST.jpg
+GE_43.309023_-122.966736_43.310900_-122.963295_LS_354_US_20070730_PRE.jpg
 
+ 
+8. Note that we need to record image coordinates for filenames manually. This can be done using the image overlay function by setting the bounding box for the image overlay to cover the current view. 
+![image](https://user-images.githubusercontent.com/35360830/170382602-5cad952d-1bb8-4648-add3-32d3eb8e03b3.png)
 
+ 
 
