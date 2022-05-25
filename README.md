@@ -43,4 +43,23 @@ The images used in our paper for each figure are provided in the file data/[Coor
  
 ![image](https://user-images.githubusercontent.com/35360830/170357672-4f61c791-500a-4330-870a-5499bd6b39c3.png)
  
+1. Import spreadsheet into [Google Earth](https://earth.google.com/web/) using **Data Import Wizard** by clicking **Import** under **File**. Click *Next* and click Next.
+ ![image](https://user-images.githubusercontent.com/35360830/170358190-0ae0b4c3-bd32-4a54-a59d-9d564c98bc66.png)
+
+2. Select **Latitude** for latitude field and **Longitude** for longitude field and click Next.
+ ![image](https://user-images.githubusercontent.com/35360830/170358469-c2945e84-95e8-475d-a819-188ce9df01c4.png)
+ 
+3. Select datatypes for each column. You can typically use the default setting, unless some customized changes are necessary. Click **Finish**. A pop-up window will appear. Click **Yes** to create a style template. 
+ ![image](https://user-images.githubusercontent.com/35360830/170358763-366a743a-7d14-4ad6-bc3c-596d139e705a.png)
+ ![image](https://user-images.githubusercontent.com/35360830/170358777-58d9e898-fc04-4d74-9238-52f6aed836a3.png)
+ 
+4. You should now be able to see all the data points from the spread sheet have been imported on Google Earth. All points are interactive. CLicking on a point should open a window with all the information about that data point.
+ ![image](https://user-images.githubusercontent.com/35360830/170359062-75844e98-5954-47d9-827c-05f36c9f3965.png)
+ ![image](https://user-images.githubusercontent.com/35360830/170359078-64257063-76e9-4f4b-8bf0-4211f3a6d3b9.png)
+ 
+5. 
+
+
+
+
 
