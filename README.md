@@ -39,5 +39,8 @@ Please consider citing our work if it helps you,
 }
 ```
 **<h1> Tutorial for Data Accquisition </h1>**
-The images used in our paper for each figure are provided in the [Images Used in Figures](/data/Coordinates for images used in figures.xlsx)
+The images used in our paper for each figure are provided in the file data/[Coordinates for images used in figures](https://github.com/deepLDB/landslide-detection/blob/main/data/Coordinates%20for%20images%20used%20in%20figures.xlsx), which contains key information for each landslide record, such as location, event date and corresponding ecoregion as shown below:
+ 
 ![image](https://user-images.githubusercontent.com/35360830/170355730-eaf48ac8-ecf0-4988-94e5-8a947ddeaf88.png)
+ 
+
