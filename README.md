@@ -86,4 +86,43 @@ GE_43.309023_-122.966736_43.310900_-122.963295_LS_354_US_20070730_PRE.jpg
 ![image](https://user-images.githubusercontent.com/35360830/170382602-5cad952d-1bb8-4648-add3-32d3eb8e03b3.png)
 
  
+**<h1> Tutorial for Data Labeling </h1>**
+ 
+We use the labelme tool for polygon labeling by observing the pre-event and post-event images.
+
+1. Go the Github repository https://github.com/wkentaro/labelme and follow the instructions provided.
+2. Check if your system has the following requirements:
+ ```
+ a.	Ubuntu / macOS / Windows
+ b. Python2 / Python3
+ c.	[PyQt4 / PyQt5](http://www.riverbankcomputing.co.uk/software/pyqt/intro) / [PySide2](https://wiki.qt.io/PySide2_GettingStarted)
+ ```
+3. There are multiple ways to install the tool:
+ a.	Platform agnostic installation: [Anaconda](https://github.com/wkentaro/labelme#anaconda), [Docker](https://github.com/wkentaro/labelme#docker)
+ b.	Platform specific installation: Ubuntu, macOS, Windows
+ 
+ Note: My suggestion: Use Anaconda installation. It is the cleanest and fastest way to install.
+
+4. . Install Anaconda and Python3 (if you already have it, skip this step)
+ a.	Go to https://www.python.org/downloads/ to install the latest Python3 version
+ b.	Go to https://docs.anaconda.com/anaconda/install/windows/ to download and install Anaconda
+ c.	You can watch multipleYouTube  videos for installing the above software
+
+5. After successful installation of Anaconda and Python, Go back to https://github.com/wkentaro/labelme and scroll down to Anaconda installation for Python 3 (Go to Python2 if you have this). Open Anaconda prompt on your system (Search in search bar if you cannot find it). Follow line-by-line code from the instructions.
+
+ ![image](https://user-images.githubusercontent.com/35360830/170383655-56f38ffb-3ba8-4588-87fd-1f1562ca5574.png)
+
+6. Close all the windows.
+7. Open Anaconda prompt again.
+8. Type conda activate labelme
+9. Type labelme --> this will open the labelme tool.
+ ![image](https://user-images.githubusercontent.com/35360830/170383714-8f62ae69-4d4c-43fb-aad7-74dd62e69596.png)
+
+10. Click Open Dir on labelme tool. Go to the image directory and select an image to annotate. 
+ ![image](https://user-images.githubusercontent.com/35360830/170383746-3fa75d27-0276-4afc-a10b-3aad043a6565.png)
+
+11. Observe the ‘Pre’ image to annotate the ‘Post’ image.
+ ![image](https://user-images.githubusercontent.com/35360830/170383771-6abda236-97a5-4c9e-987a-722c29c38ea3.png)
+ 
+12. Click Save button. The image will be saved as a .json file.
 
