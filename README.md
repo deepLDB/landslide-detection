@@ -41,7 +41,7 @@ Please consider citing our work if it helps you,
 **<h1> Tutorial for Data Accquisition </h1>**
 The images used in our paper for each figure are provided in the file data/[Coordinates for images used in figures](https://github.com/deepLDB/landslide-detection/blob/main/data/Coordinates%20for%20images%20used%20in%20figures.xlsx), which contains key information for each landslide record, such as location, event date and corresponding ecoregion as shown below:
  
-![image](https://user-images.githubusercontent.com/35360830/170357672-4f61c791-500a-4330-870a-5499bd6b39c3.png)
+![image](https://user-images.githubusercontent.com/35360830/170359342-66906468-82fe-4684-9729-1767e1b7876c.png)
  
 1. Import spreadsheet into [Google Earth](https://earth.google.com/web/) using **Data Import Wizard** by clicking **Import** under **File**. Click *Next* and click Next.
  ![image](https://user-images.githubusercontent.com/35360830/170358190-0ae0b4c3-bd32-4a54-a59d-9d564c98bc66.png)
