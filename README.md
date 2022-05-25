@@ -92,11 +92,10 @@ We use the labelme tool for polygon labeling by observing the pre-event and post
 
 1. Go the Github repository https://github.com/wkentaro/labelme and follow the instructions provided.
 2. Check if your system has the following requirements:
- ```
  a.	Ubuntu / macOS / Windows
  b. Python2 / Python3
  c.	[PyQt4 / PyQt5](http://www.riverbankcomputing.co.uk/software/pyqt/intro) / [PySide2](https://wiki.qt.io/PySide2_GettingStarted)
- ```
+
 3. There are multiple ways to install the tool:
  a.	Platform agnostic installation: [Anaconda](https://github.com/wkentaro/labelme#anaconda), [Docker](https://github.com/wkentaro/labelme#docker)
  b.	Platform specific installation: Ubuntu, macOS, Windows
