@@ -38,3 +38,6 @@ Please consider citing our work if it helps you,
   year={2020}
 }
 ```
+**<h1> Tutorial for Data Accquisition </h1>**
+The images used in our paper for each figure are provided in the [Images Used in Figures](/data/Coordinates for images used in figures.xlsx)
+![image](https://user-images.githubusercontent.com/35360830/170355730-eaf48ac8-ecf0-4988-94e5-8a947ddeaf88.png)
