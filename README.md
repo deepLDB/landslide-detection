@@ -58,9 +58,11 @@ The images used in our paper for each figure are provided in the file data/[Coor
  ![image](https://user-images.githubusercontent.com/35360830/170359078-64257063-76e9-4f4b-8bf0-4211f3a6d3b9.png)
  
 5. To collect Pre-Event Images and the corresponding Post-Event images, use the time-lapse function in Google Earth Pro to check if there are images that spot the events around the date, without any cloud-cover. You can zoom in or out using the scroll wheel. Click **R** on the keyboard to reset view angle after each zoom time.
- ![image](https://user-images.githubusercontent.com/35360830/170382336-f0cc26f1-cb4b-4f93-98f3-a71158bf0871.png)
+
+![image](https://user-images.githubusercontent.com/35360830/170382336-f0cc26f1-cb4b-4f93-98f3-a71158bf0871.png)
 
 6. Before saving the image, be sure to unselect the location points on the map and unselect all the layers. Also, remove map elements and set scaling to 1% in map options to remove any watermarks and labels from the image. Select the current resolution to avoid Google Earth cropping the current view when saving the image.
+
 ![image](https://user-images.githubusercontent.com/35360830/170382422-68d6c15e-6d33-4fb2-a0a0-9c97b28eae78.png)
 
 7. The naming format for images is as follows:
